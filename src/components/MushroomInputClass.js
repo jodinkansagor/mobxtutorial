@@ -9,7 +9,6 @@ const MushroomInputClass = () => {
   const handleClick = () => {
     mushroomStore.addMushroom(mushroom);
     setMushroom("");
-    console.log(mushroomStore);
   };
 
   return (

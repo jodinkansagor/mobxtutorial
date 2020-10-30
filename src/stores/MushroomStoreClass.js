@@ -1,4 +1,4 @@
-import { makeObservable, observable, action, decorate } from "mobx";
+import { makeObservable, observable, action } from "mobx";
 import { nanoid } from "nanoid";
 import { createContext } from "react";
 

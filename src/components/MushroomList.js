@@ -8,7 +8,6 @@ const MushroomList = () => {
   return useObserver(() => (
     <ul>
       {mushroomStore.mushrooms.map((mushroom) => {
-        console.log(mushroom);
         return (
           <li
             key={mushroom.id}

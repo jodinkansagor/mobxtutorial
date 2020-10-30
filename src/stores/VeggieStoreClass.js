@@ -11,12 +11,11 @@ export class VeggieStoreClass {
       addVeggie: action,
       removeVeggie: action,
     });
-    this.veggies = veggies;
   }
 
-  addVeggie(veggie) {
+  addVeggie(veggieName) {
     this.veggies.push({
-      veggie,
+      veggieName,
       id: nanoid(),
     });
   }

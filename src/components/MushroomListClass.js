@@ -4,11 +4,9 @@ import { useClassStore } from "../stores/ClassStoresProvider";
 
 const MushroomListClass = () => {
   const { mushroomStore } = useClassStore();
-  console.log(mushroomStore);
   return (
     <ul>
       {mushroomStore.mushrooms.map((mushroom) => {
-        console.log(mushroom);
         return (
           <li
             key={mushroom.id}

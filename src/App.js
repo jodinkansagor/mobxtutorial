@@ -6,7 +6,8 @@ function App() {
   return (
     <>
       <h1>Mushrooms!!</h1>
-      {/* <Function /> */}
+      <Function />
+      <h1>Let's have another list</h1>
       <Class />
     </>
   );

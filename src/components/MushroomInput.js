@@ -9,7 +9,6 @@ const MushroomInput = () => {
   const handleClick = () => {
     mushroomStore.addMushroom(mushroom);
     setMushroom("");
-    console.log(mushroomStore);
   };
 
   return useObserver(() => (
