@@ -1,10 +1,10 @@
-import { useObserver } from "mobx-react";
+import { observer } from "mobx-react";
 import React, { useState } from "react";
-import { useMushroomStore } from "../stores/MushroomContext";
+import { useClassStore } from "../stores/ClassStoresProvider";
 
-const MushroomInput = () => {
+const MushroomInputClass = () => {
   const [mushroom, setMushroom] = useState("");
-  const mushroomStore = useMushroomStore();
+  const { mushroomStore } = useClassStore();
 
   const handleClick = () => {
     mushroomStore.addMushroom(mushroom);
@@ -12,7 +12,7 @@ const MushroomInput = () => {
     console.log(mushroomStore);
   };
 
-  return useObserver(() => (
+  return (
     <>
       <input
         value={mushroom}
@@ -21,7 +21,7 @@ const MushroomInput = () => {
       />
       <button onClick={handleClick}>Add Mushroom</button>
     </>
-  ));
+  );
 };
 
-export default MushroomInput;
+export default observer(MushroomInputClass);
