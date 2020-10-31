@@ -10,4 +10,4 @@ Try it on your own! Use the source code to help you create a basic to do or list
 
 4. Create a useStore hook to access your store in your components. 
 
-5. Write your components. Make a list and an input. Access your store 
+5. Write your components. Make a list and an input. Access your store with your hooks and make it happen! 
