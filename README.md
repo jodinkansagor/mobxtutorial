@@ -26,12 +26,19 @@ You will need to install the following dependencies:
 ### More Mobx Resources and Tutorials
 
 https://github.com/mobxjs/mobx
+
 https://mobx.js.org/getting-started
+
 https://mobx.js.org/react-integration.html
+
 https://auth0.com/blog/managing-the-state-of-react-apps-with-mobx/
+
 https://www.youtube.com/watch?v=uFWrquw5aHA
+
 https://www.youtube.com/watch?v=MKNls_FReXI
+
 https://www.npmjs.com/package/mobx-react
+
 https://dev.to/rosyshrestha/build-your-first-app-with-mobx-and-react-4896
 
 
