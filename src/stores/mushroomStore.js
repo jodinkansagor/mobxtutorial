@@ -1,4 +1,3 @@
-import { useLocalObservable } from "mobx-react";
 import { nanoid } from "nanoid";
 
 export const createMushroomStore = () => {

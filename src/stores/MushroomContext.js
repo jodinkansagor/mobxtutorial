@@ -1,7 +1,6 @@
 import React, { createContext, useContext } from "react";
 import { createMushroomStore } from "./mushroomStore";
 import { useLocalObservable } from "mobx-react";
-import { nanoid } from "nanoid";
 
 const MushroomContext = createContext(null);
 
