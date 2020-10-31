@@ -19,5 +19,19 @@ You will need to install the following dependencies:
  - mobx
  - mobx-react or mobx-react-lite (either should work for what we are doing)
 
+ #### Mobx Store Set Up
+
+ You can set up your store either as a class or a function. It's up to you. Just be consistent. You can use a class based store with a fully functional component app (that uses hooks) 
+
+### More Mobx Resources and Tutorials
+
+https://github.com/mobxjs/mobx
+https://mobx.js.org/getting-started
+https://mobx.js.org/react-integration.html
+https://auth0.com/blog/managing-the-state-of-react-apps-with-mobx/
+https://www.youtube.com/watch?v=uFWrquw5aHA
+https://www.youtube.com/watch?v=MKNls_FReXI
+https://www.npmjs.com/package/mobx-react
+https://dev.to/rosyshrestha/build-your-first-app-with-mobx-and-react-4896
 
 
