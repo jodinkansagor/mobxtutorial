@@ -8,7 +8,7 @@ Global state can be managed in multiple ways including with Redux, the React Con
  - <em>Computeds:</em> allow us to derive some value based on 
 the state change
 
-###### Mobx State is mutable!
+By making your components observers, your components abserve and react to changes in the state of the store. The store state changes, your component re-renders. Pretty simple.
 
 
 #### Let's Get Started!
