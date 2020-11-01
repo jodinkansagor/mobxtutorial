@@ -1,5 +1,5 @@
 import React, { createContext, useContext } from "react";
-import { createMushroomStore } from "./mushroomStore";
+import { createMushroomStore } from "./MushroomStoreFunction";
 import { useLocalObservable } from "mobx-react";
 
 const MushroomContext = createContext(null);

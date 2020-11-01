@@ -1,6 +1,6 @@
 import { observer } from "mobx-react";
 import React, { useState } from "react";
-import { useClassStore } from "../stores/ClassStoresProvider";
+import { useClassStore } from "../../stores/class/ClassStoresProvider";
 
 const VeggieInputClass = () => {
   const [veggie, setVeggie] = useState("");

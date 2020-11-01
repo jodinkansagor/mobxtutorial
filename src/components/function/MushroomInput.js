@@ -1,6 +1,6 @@
 import { useObserver } from "mobx-react";
 import React, { useState } from "react";
-import { useMushroomStore } from "../stores/MushroomContext";
+import { useMushroomStore } from "../../stores/function/FunctionStoresProvider";
 
 const MushroomInput = () => {
   const [mushroom, setMushroom] = useState("");

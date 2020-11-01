@@ -1,6 +1,6 @@
 import { useObserver } from "mobx-react";
 import React from "react";
-import { useMushroomStore } from "../stores/MushroomContext";
+import { useMushroomStore } from "../../stores/function/FunctionStoresProvider";
 
 const MushroomList = () => {
   const mushroomStore = useMushroomStore();
@@ -9,11 +9,11 @@ const MushroomList = () => {
     <ul>
       {mushroomStore.mushrooms.map((mushroom) => {
         return (
-          <li
-            key={mushroom.id}
-            onClick={() => mushroomStore.removeMushroom(mushroom.id)}
-          >
+          <li key={mushroom.id}>
             {mushroom.mushroomName}
+            <button onClick={() => mushroomStore.removeMushroom(mushroom.id)}>
+              X
+            </button>
           </li>
         );
       })}

@@ -1,7 +1,7 @@
 import React from "react";
-import MushroomList from "../components/MushroomList";
-import MushroomInput from "../components/MushroomInput";
-import { MushroomProvider } from "../stores/MushroomContext";
+import MushroomList from "../components/function/MushroomList";
+import MushroomInput from "../components/function/MushroomInput";
+import { MushroomProvider } from "../stores/function/FunctionStoresProvider";
 
 const Function = () => {
   return (
