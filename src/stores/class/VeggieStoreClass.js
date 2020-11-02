@@ -5,7 +5,7 @@ import { createContext } from "react";
 export class VeggieStoreClass {
   veggies = [];
 
-  constructor(veggies) {
+  constructor() {
     makeObservable(this, {
       veggies: observable,
       addVeggie: action,

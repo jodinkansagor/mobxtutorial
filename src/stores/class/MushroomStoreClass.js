@@ -5,13 +5,13 @@ import { createContext } from "react";
 export class MushroomStoreClass {
   mushrooms = [];
 
-  constructor(mushrooms) {
+  constructor() {
     makeObservable(this, {
-        mushrooms: observable,
-        addMushroom: action,
-        removeMushroom: action
-    })
-}
+      mushrooms: observable,
+      addMushroom: action,
+      removeMushroom: action,
+    });
+  }
 
   addMushroom(mushroomName) {
     this.mushrooms.push({
@@ -25,5 +25,6 @@ export class MushroomStoreClass {
   }
 }
 
-
-export const MushroomClassStoreContext = createContext(new MushroomStoreClass());
+export const MushroomClassStoreContext = createContext(
+  new MushroomStoreClass()
+);
